@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <title>YOLO Object Detection Results</title>
+  </head>
+  <body>
+    <h1>YOLO Object Detection Results</h1>
+    <p>Detected objects:</p>
+    <ul>
+      {% for pred in results.pred %}
+        <li>{{ pred }}</li>
+      {% endfor %}
+    </ul>
+    <img src="{{ url_for('static', filename='uploads/' + marked_img) }}" width="1000" height="800" alt="Uploaded Image">
+  </body>
+</html>
