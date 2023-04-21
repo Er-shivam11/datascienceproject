@@ -1,4 +1,4 @@
-# Sales Analysis with Tableau Dashboard
+# Sales Analysis with [Tableau dashboard](https://public.tableau.com/app/profile/shivam.nirmal/viz/customersegmentanalysis_16806776085100/SALESANALYSIS)
 Sales Analysis is a data analysis project that aims to provide insights into sales performance using real-world sales data. The project uses Python and popular data analysis libraries such as Pandas, NumPy, and Matplotlib to perform data cleaning, exploration, and visualization.
 
 ## Objective
